@@ -137,7 +137,9 @@ export default function TermsOfServicePage() {
             <div className="border-t border-border pt-8 mt-8">
               <p className="text-xs text-muted-foreground leading-relaxed">
                 By using Fulcrum-India, you agree to these terms. For questions, contact us at{" "}
-                <span className="text-primary font-semibold">legal@fulcrumindia.online</span>
+                <a href="mailto:legal@fulcrumindia.online" className="text-primary font-semibold hover:underline">
+                  legal@fulcrumindia.online
+                </a>
               </p>
               <p className="text-xs text-muted-foreground mt-2">
                 © 2026 Fulcrum-India. Built with ❤️ in India. Aligned with India Stack, DPIIT, and SCSP/TSP guidelines.

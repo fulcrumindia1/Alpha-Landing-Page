@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
             <Section icon={Eye} title="2. How We Use Your Data">
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2"><span className="text-primary">•</span> <strong className="text-foreground">Scheme Matching:</strong> Your business type, location, and community help match you with relevant government schemes</li>
-                <li className="flex items-start gap-2"><span className="text-primary">•</span> <strong className="text-foreground">Guide Matching:</strong> Your district, language, and industry help find the best guide for you</li>
+                <li className="flex items-start gap-2"><span className="text-primary">•</span> <strong className="text-foreground">Guide Matching:</strong> Your district, language, and industry help match an appropriate guide for you</li>
                 <li className="flex items-start gap-2"><span className="text-primary">•</span> <strong className="text-foreground">Institutional Memory:</strong> Anonymized journey data helps future entrepreneurs avoid common mistakes</li>
                 <li className="flex items-start gap-2"><span className="text-primary">•</span> <strong className="text-foreground">Fund Tracking:</strong> Aggregate data helps track SCSP/TSP fund flow to intended beneficiaries</li>
               </ul>
@@ -91,7 +91,10 @@ export default function PrivacyPolicyPage() {
 
             <div className="border-t border-border pt-8 mt-8">
               <p className="text-xs text-muted-foreground leading-relaxed">
-                For privacy-related inquiries, contact <span className="text-primary font-semibold">privacy@fulcrumindia.online</span>
+                For privacy-related inquiries, contact{" "}
+                <a href="mailto:privacy@fulcrumindia.online" className="text-primary font-semibold hover:underline">
+                  privacy@fulcrumindia.online
+                </a>
               </p>
               <p className="text-xs text-muted-foreground mt-2">
                 © 2026 Fulcrum-India. Compliant with IT Act 2000, SPDI Rules 2011, and DPDP Act 2023.
